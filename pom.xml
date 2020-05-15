@@ -36,8 +36,8 @@
             <workerType>Micro</workerType>
 				</cloudhubdeployment> -->
 				<cloudHubDeployment>                   
-                    <username>viswabharath1985</username>
-                    <password>Vbshr@ki15</password>
+                    <username>viswabharath1512</username>
+                    <password>Mindtree@123</password>
                     <environment>Sandbox</environment>
                     <workers>1</workers>
                     <workerType>Micro</workerType>
