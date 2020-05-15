@@ -26,7 +26,7 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				<cloudhubdeployment>
+				<!-- <cloudhubdeployment>
 				<muleVersion>4.2.2</muleVersion>
 				<username>viswabharath85</username>
 				<password>Vbshr@ki15</password>
@@ -34,7 +34,16 @@
 				<applicationname>muledeploymentest</applicationname>
 				    <uri>https://anypoint.mulesoft.com</uri> 
             <workerType>Micro</workerType>
-				</cloudhubdeployment>
+				</cloudhubdeployment> -->
+				<cloudHubDeployment>                   
+                    <username>viswabharath85</username>
+                    <password>Vbshr@ki15</password>
+                    <environment>Sandbox</environment>
+                    <workers>1</workers>
+                    <workerType>Micro</workerType>
+                    <applicationName>muledeploymentest</applicationName>
+                    <muleVersion>4.2.2</muleVersion>
+                </cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
