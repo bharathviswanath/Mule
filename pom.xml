@@ -26,15 +26,6 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				<!-- <cloudhubdeployment>
-				<muleVersion>4.2.2</muleVersion>
-				<username>viswabharath85</username>
-				<password>Vbshr@ki15</password>
-				<environment>Sandbox</environment>
-				<applicationname>muledeploymentest</applicationname>
-				    <uri>https://anypoint.mulesoft.com</uri> 
-            <workerType>Micro</workerType>
-				</cloudhubdeployment> -->
 				<cloudHubDeployment>    
 				    <objectStoreV2>true</objectStoreV2>           
                     <username>viswabharath1512</username>
